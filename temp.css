@@ -1,0 +1,65 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+}
+.container{
+    max-width: 450px;
+    background-color:plum;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:20px;
+
+}
+h1{
+    color:black;
+    font-size: 25px;
+}
+span:hover
+{font-weight: 100%;
+    color:white;
+    background:black ;
+}
+#celcius, #Faherinet, #kelvin
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.button
+{   margin-top: 25px;
+   text-align: center;
+ text-shadow: 25px;
+ border-radius: 100px;
+
+}
+.button button{
+    border:none;
+    outline: none;
+    padding: 1px 3px;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 33px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button button:hover
+{
+background: black;
+color: white;
+}
+
+::placeholder{
+    color:black;
+}
